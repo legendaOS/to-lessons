@@ -1,11 +1,10 @@
-# 10 .. 1
+def foo(a: int, b:int) -> int:
+    """
+        вернет сумму двух чисел \n
+        и я люблю маму
+    """
+    return 0
 
-number = 5
 
-while number > 10:
-    print(number)
-    number = number - 1
-else:
-    print(number)
 
-print('all')
+assert foo(1,2) == 3, "ты очень плох!"
